@@ -1,7 +1,7 @@
 {
-  "name": "jsl-seed",
-  "version": "0.0.2",
-  "description": "the seed for Jade, Stylus, LiveScript apps",
+  "name": "countdown",
+  "version": "0.0.1",
+  "description": "a countdown timer for FGJ",
   "main": "main.js",
   "scripts": {
     "start": "gulp",

@@ -1,7 +1,7 @@
 {
-  "name": "jsl-seed",
-  "version": "0.0.2",
-  "homepage": "https://github.com/caasi/jsl-seed",
+  "name": "countdown",
+  "version": "0.0.1",
+  "homepage": "https://github.com/caasi/countdown",
   "authors": [
     "caasi Huang <caasi.igd@gmail.com>"
   ],
@@ -18,12 +18,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "~2.1.0",
-    "semantic-ui": "~0.15.5"
+    "jquery": "~2.1.0"
   },
   "overrides": {
-    "semantic-ui": {
-      "main": "build/packaged/**/*"
-    }
   }
 }
