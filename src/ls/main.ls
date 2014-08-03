@@ -1,4 +1,4 @@
-$wrap = $ '#wrap'
+$time = $ '#time'
 
 config =
   deadline: '2014-08-03T1600'
@@ -12,7 +12,7 @@ padding = (num, len) ->
 
 update = !->
   left = moment!countdown config.deadline, config.flag
-  $wrap.html "#{padding left.hours, 2}:#{padding left.minutes, 2}:#{padding left.seconds, 2}.#{padding left.milliseconds, 3}"
+  $time.html "#{padding left.hours, 2}:#{padding left.minutes, 2}:#{padding left.seconds, 2}.#{padding left.milliseconds, 3}"
   request-animation-frame update
 
 request-animation-frame update

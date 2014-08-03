@@ -93,7 +93,7 @@ body {
   background-color: #16161d;
   color: #eee;
   font-family: monospace;
-  font-size: 800%;
+  font-size: 600%;
   font-weight: bold;
 }
 body #wrap {
@@ -104,5 +104,9 @@ body #wrap {
   bottom: 0;
   right: 0;
   width: 8em;
-  height: 1em;
+  height: 2.5em;
+  line-height: 1.5em;
+}
+body #wrap #text {
+  text-align: center;
 }
