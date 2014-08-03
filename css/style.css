@@ -93,7 +93,7 @@ body {
   background-color: #16161d;
   color: #eee;
   font-family: monospace;
-  font-size: 600%;
+  font-size: 800%;
   font-weight: bold;
 }
 body #wrap {
@@ -103,6 +103,6 @@ body #wrap {
   left: 0;
   bottom: 0;
   right: 0;
-  width: 7em;
+  width: 8em;
   height: 1em;
 }
