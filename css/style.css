@@ -89,3 +89,20 @@ td {
 a img {
   border: none;
 }
+body {
+  background-color: #16161d;
+  color: #eee;
+  font-family: monospace;
+  font-size: 600%;
+  font-weight: bold;
+}
+body #wrap {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 7em;
+  height: 1em;
+}
