@@ -92,7 +92,7 @@ a img {
 body {
   background-color: #16161d;
   color: #eee;
-  font-family: monospace;
+  font-family: WenQuanYi Micro Hei Mono, monospace;
   font-size: 600%;
   font-weight: bold;
 }
@@ -106,7 +106,5 @@ body #wrap {
   width: 8em;
   height: 2.5em;
   line-height: 1.5em;
-}
-body #wrap #text {
   text-align: center;
 }
